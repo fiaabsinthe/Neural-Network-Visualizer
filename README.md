@@ -58,8 +58,17 @@ The goal is to show how input data is transformed through hidden layers and how 
 - Matplotlib
 
 ## Lets Try it out
-1. Make sure you have all the tech stack installed
-2. Once installed , run this in the terminal
+1. Clone the Repo
+git clone https://github.com/fiaabsinthe/Neural-Network-Visualizer.git
+cd Neural-Network-Visualizer
+
+2. Make sure you have all the tech stack installed
+pip install -r requirements.txt
+
+3. Once installed , run this in the terminal using:
+streamlit run app.py
+
+if streamlit isnt recognize or not added to PATH use this:
 python -m streamlit run app.py
 
 enjoy !
